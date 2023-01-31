@@ -1,5 +1,5 @@
 # Add and Delete Rows and Columns at runtime in MAUI DataGrid
-In.NET [MAUI DataGrid](https://www.syncfusion.com/maui-controls/maui-datagrid) (SfDataGrid),allows you to manage rows and columns dynamically at runtime through its integration with the [INotifyCollectionChanged](https://learn.microsoft.com/en-us/dotnet/api/system.componentmodel.inotifypropertychanged?view=net-7.0) interface. When you set the [ItemsSource](https://help.syncfusion.com/cr/maui/Syncfusion.Maui.DataGrid.SfDataGrid.html#Syncfusion_Maui_DataGrid_SfDataGrid_ItemsSource) of the grid to a collection that implements this interface, such as an `ObservableCollection`, the SfDataGrid will automatically refresh its view whenever you add or remove rows or columns.
+In.NET [MAUI DataGrid](https://www.syncfusion.com/maui-controls/maui-datagrid) (SfDataGrid) allows you to manage rows and columns dynamically at runtime through its integration with the [INotifyCollectionChanged](https://learn.microsoft.com/en-us/dotnet/api/system.componentmodel.inotifypropertychanged?view=net-7.0) interface. When you set the [ItemsSource](https://help.syncfusion.com/cr/maui/Syncfusion.Maui.DataGrid.SfDataGrid.html#Syncfusion_Maui_DataGrid_SfDataGrid_ItemsSource) of the grid to a collection that implements this interface, such as an `ObservableCollection`, the SfDataGrid will automatically refresh its view whenever you add or remove rows or columns.
 
 Refer the below code example for adding and removing Rows and Columns in SfDataGrid.
 ## C#
@@ -145,7 +145,7 @@ private void AddColumnButton_Clicked(object sender, EventArgs e)
     </Grid>
 </Grid>
 ```
-![Adding and Removing rows and columns](AddingAndDeletingRowsAndColumns.png)
+![Adding and Removing rows and columns](AddingAndRemovingRowsAndColumns.gif)
 ### Conclusion
 I hope you enjoyed learning about how to bind DataTable collection to MAUI DataGrid (SfDataGrid).
 You can refer to our [.NET MAUI DataGrid’s feature tour](https://www.syncfusion.com/maui-controls/maui-datagrid) page to know about its other groundbreaking feature representations. You can also explore our .NET MAUI DataGrid Documentation to understand how to present and manipulate data.
