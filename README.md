@@ -145,7 +145,7 @@ private void AddColumnButton_Clicked(object sender, EventArgs e)
     </Grid>
 </Grid>
 ```
-![Adding and Removing rows and columns](AddingAndRemovingRowsAndColumns.gif)
+![Adding and Removing rows and columns](AddAndRemoveRowsAndColumns.gif)
 ### Conclusion
 I hope you enjoyed learning about how to bind DataTable collection to MAUI DataGrid (SfDataGrid).
 You can refer to our [.NET MAUI DataGrid’s feature tour](https://www.syncfusion.com/maui-controls/maui-datagrid) page to know about its other groundbreaking feature representations. You can also explore our .NET MAUI DataGrid Documentation to understand how to present and manipulate data.
